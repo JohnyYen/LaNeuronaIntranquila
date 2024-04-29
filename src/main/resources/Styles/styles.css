@@ -1,0 +1,39 @@
+.btn{
+    -fx-font-family: "Arial Black",fantasy;
+    -fx-background-color: darkgray;
+    -fx-color: antiquewhite;
+    -fx-background-radius: 7px;
+    -fx-max-width: 100px;
+    -fx-width: 40px;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 17px;
+    -fx-margin-bottom: 5px;
+    -fx-font-family: "Arial Black",fantasy;
+    -fx-text-effect: engrave;
+}
+
+.btn:hover{
+    -fx-background-color: lightblue;
+}
+
+.title{
+    -fx-font-family: "Arial Black",fantasy;
+    -fx-font-size: 29px;
+    -fx-text-fill: white;
+    -fx-text-align: center;
+}
+
+.title:hover{
+    -fx-scale: 120%;
+}
+
+.root{
+
+}
+
+.input{
+
+}
