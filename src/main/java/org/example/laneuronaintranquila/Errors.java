@@ -16,6 +16,17 @@ public class Errors {
         return empty;
     }
 
+    public static boolean isFloatNumber(String text){
+        boolean isCorrect = true;
+        int count = 0;
+        for(int i = 0; i < text.length() && isCorrect; i++){
+            if(text.charAt(i) == '.')
+                count++;
+            else if(!Character.isDigit(text.charAt(i)))
+                isCorrect = false;
+        }
+        return count <= 1 && isCorrect;
+    }
     public static boolean isEqualsLenght(int lenght, String text){
         text = text.replaceAll(",","");
         int count = 0;
@@ -71,6 +82,17 @@ public class Errors {
         return count == layers;
     }
 
+    public static boolean isFlower(String n){
+        boolean isCorrect = false;
+        if(n.equals("Iris-setosa"))
+            isCorrect = true;
+        else if(n.equals("Iris-virginica"))
+            isCorrect = true;
+        else if(n.equals("Iris-versicolor"))
+            isCorrect = true;
+
+       return isCorrect;
+    }
     public static boolean isNull(Object object){
         return object == null;
     }

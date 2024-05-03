@@ -10,6 +10,8 @@ import java.io.IOException;
 
 public class inValuesController {
     @FXML
+    public static int mode;
+    @FXML
     private Button btnBack, btnTrain;
     @FXML
     private TextField epoch, error, alpha;
@@ -28,6 +30,11 @@ public class inValuesController {
                     System.out.println("Bien");
                     if(!Errors.isEmpty(error) && Errors.isUniqueNumber(error)){
                         //Aqui va a la pantalla de entrenamiento de la red
+                        if(mode == 0){
+
+                        } else if (mode == 1) {
+
+                        }
 
                     }
                     else{

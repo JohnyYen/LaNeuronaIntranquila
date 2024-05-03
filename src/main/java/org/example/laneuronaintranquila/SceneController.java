@@ -29,22 +29,37 @@ public class SceneController {
     public void changeInputsScene(ActionEvent e) throws IOException{
         root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("inValues.fxml")));
         stage = (Stage)((Node)e.getSource()).getScene().getWindow();
-        scene = new Scene(root);
+        scene = new Scene(root,700, 500);
         stage.setScene(scene);
         stage.show();
     }
 
+    public void changeTrainView(ActionEvent e) throws IOException{
+        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("trainView.fxml")));
+        stage = (Stage)((Node)e.getSource()).getScene().getWindow();
+        scene = new Scene(root,700, 500);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void changeInputScene(ActionEvent e) throws IOException{
+        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("inputs.fxml")));
+        stage = (Stage)((Node)e.getSource()).getScene().getWindow();
+        scene = new Scene(root,700, 500);
+        stage.setScene(scene);
+        stage.show();
+    }
     public void changeFilesView(ActionEvent e) throws IOException{
         root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("ficheroView.fxml")));
         stage = (Stage)((Node)e.getSource()).getScene().getWindow();
-        scene = new Scene(root);
+        scene = new Scene(root,700, 500);
         stage.setScene(scene);
         stage.show();
     }
     public void changeCreateNetwork(ActionEvent e) throws IOException {
         root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("createNetwork.fxml")));
         stage = (Stage)((Node)e.getSource()).getScene().getWindow();
-        scene = new Scene(root);
+        scene = new Scene(root,700, 500);
         stage.setScene(scene);
         stage.show();
     }
@@ -52,7 +67,7 @@ public class SceneController {
     public void backMainScene(ActionEvent e) throws IOException {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("hello-view.fxml")));
         Stage stage = (Stage)((Node)e.getSource()).getScene().getWindow();
-        scene = new Scene(root);
+        scene = new Scene(root,700, 500);
         stage.setScene(scene);
         stage.show();
     }

@@ -5,30 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a038ec4e-9b9c-4c65-a958-d636a6b42a78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/Errors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/SceneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/createNetworkController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/filesViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/inValuesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/createNetwork.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/ficheroView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/inValues.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/neuralInput.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/trainView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/LinkedGraph_1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/LinkedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/edge/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/edge/WeightedEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/interfaces/ILinkedDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/interfaces/ILinkedNotDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/interfaces/ILinkedWeightedEdgeDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/interfaces/ILinkedWeightedEdgeNotDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/interfaces/ILinkedWeightedVertexDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/interfaces/ILinkedWeightedVertexNotDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/vertex/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Logica/lib/cu/edu/cujae/ceis/graph/vertex/WeightedVertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/InputsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/TrainViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/inputs.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/Errors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/Errors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/SceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/createNetworkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/createNetworkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/inValuesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/laneuronaintranquila/inValuesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/9b8acbc9a2b3d07040065ac427479eae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/autistic-neural-network-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/red-global-blockchain-ilustracion-3d-redes-neuronales-e-inteligencia-artificial-antecedentes-tecnologicos-abstractos-con-elementos-de-codigo-binario-2j9t9ke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/representacion-3d-formas-abstractas-puntos-plexo-rayos-luz-puntos-luz_232104-2395.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/createNetwork.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/createNetwork.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/ficheroView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/ficheroView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/inValues.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/inValues.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/trainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/laneuronaintranquila/trainView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +65,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2fiQd5JFkh6rMSIZ83YxFBpLV0C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,25 +77,48 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PrimTest.executor": "Run",
+    "Application.VisualNetwork.executor": "Run",
+    "Application.VisualizationNetwork.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Proyectos/ED Java/LaNeuronaIntranquila/src/main/java/Logica/libs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Proyectos\ED Java\LaNeuronaIntranquila\src\main\java\Logica\lib" />
+      <recent name="D:\Proyectos\ED Java\LaNeuronaIntranquila\src\main\java\Logica" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Proyectos\ED Java\LaNeuronaIntranquila\src\main\java\Logica\libs" />
+      <recent name="D:\Proyectos\ED Java\LaNeuronaIntranquila\src\main\java\Logica\lib" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.laneuronaintranquila.HelloApplication" />
+    <configuration name="PrimTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cu.edu.cujae.graphy.tests.algorithms.PrimTest" />
       <module name="LaNeuronaIntranquila" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.laneuronaintranquila.*" />
+          <option name="PATTERN" value="cu.edu.cujae.graphy.tests.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,11 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.HelloApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,7 +135,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714281508284</updated>
+      <workItem from="1714318762426" duration="3799000" />
+      <workItem from="1714678787792" duration="2102000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

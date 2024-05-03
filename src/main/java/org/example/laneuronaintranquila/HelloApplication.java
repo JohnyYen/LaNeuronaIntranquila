@@ -1,5 +1,6 @@
 package org.example.laneuronaintranquila;
 
+import Logica.NeuralNetwork.NNM;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -15,6 +16,7 @@ public class HelloApplication extends Application {
         stage.setTitle("La neurona intranquila");
         stage.setScene(scene);
         SceneController.instanciate();
+        NNM.createInstanciate();
         stage.show();
     }
 

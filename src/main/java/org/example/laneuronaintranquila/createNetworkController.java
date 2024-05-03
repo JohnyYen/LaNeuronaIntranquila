@@ -1,13 +1,12 @@
 package org.example.laneuronaintranquila;
 
+import Logica.NeuralNetwork.NNM;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 
 import java.io.IOException;
+import java.util.Optional;
 
 public class createNetworkController {
     @FXML
@@ -23,10 +22,11 @@ public class createNetworkController {
     @FXML
     protected void onClickAccepted(ActionEvent e) throws IOException {
         boolean isAccepted = false;
+        System.out.println("Holaaaaa");
+        int[] neur = null;
         if(name != null && layer != null && neurons != null){
             if(!Errors.isEmpty(name) && Errors.isAllLetter(name)){
                 System.out.println("Bien");
-
                 if(!Errors.isEmpty(layer) && Errors.isAllNumber(layer) && Errors.isUniqueNumber(layer)){
                     System.out.println("Bien2");
                     if(!Errors.isEmpty(neurons) && Errors.isAllNumber(neurons)){
@@ -34,7 +34,7 @@ public class createNetworkController {
                         String numbers = neurons.getText().replaceAll(",", " ");
                         if(Errors.isEqualsLenght(Integer.parseInt(layer.getText()), numbers)){
                             int i = 0, j = 0;
-                            int[] neur = new int[Integer.parseInt(layer.getText())];
+                            neur = new int[Integer.parseInt(layer.getText())];
                             while(neur.length != j){
                                 if(Character.isDigit(numbers.charAt(j)))
                                     neur[i++] = Integer.parseInt(""+numbers.charAt(j));
@@ -76,12 +76,20 @@ public class createNetworkController {
                 alert.show();
             }
         }
-//
-//        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-//        alert.setTitle("Informacion");
-//        alert.setContentText("Ocurrio un error con el nombre de la red, revise" +
-//                "que el campo no este vacio o que tenga valores correctos");
-        if(isAccepted)
+        if(isAccepted){
+            if(NNM.instanciate.getNetwork() != null){
+                Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+                alert.setContentText("Ya existe una red creada desea crear\n" +
+                        "una nueva?");
+                Optional<ButtonType> re = alert.showAndWait();
+                if(re.isPresent() && re.get() == ButtonType.OK)
+                    NNM.instanciate.createNetwork(neur);
+            }
+            else{
+                NNM.instanciate.createNetwork(neur);
+            }
             SceneController.sceneController.backMainScene(e);
+        }
+
     }
 }

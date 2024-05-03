@@ -1,10 +1,11 @@
 .btn{
     -fx-font-family: "Arial Black",fantasy;
-    -fx-background-color: darkgray;
+    -fx-background-color: linear-gradient(to top, lightblue, lightslategray);
     -fx-color: antiquewhite;
     -fx-background-radius: 7px;
     -fx-max-width: 100px;
     -fx-width: 40px;
+    -fx-width: 50px;
 }
 
 .label{
@@ -31,9 +32,9 @@
 }
 
 .root{
-
+    -fx-background: linear-gradient(to bottom, rgb(100, 149, 237, 0.8), rgb(72, 61, 139, 0.8)) ;
 }
 
 .input{
-
+    -fx-background: #585858;
 }

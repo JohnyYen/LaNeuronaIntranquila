@@ -1,11 +1,15 @@
 package org.example.laneuronaintranquila;
 
+import Logica.NeuralNetwork.NNM;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 
 import java.io.IOException;
+import java.util.Optional;
 
 public class HelloController {
     @FXML
@@ -24,7 +28,13 @@ public class HelloController {
     }
     @FXML
     protected void onClickClose(ActionEvent e) throws IOException{
-        SceneController.sceneController.closeAplication(e);
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setContentText("Estas segur@ que desea salir?");
+        Optional<ButtonType> re = alert.showAndWait();
+        if(re.isPresent() && re.get() == ButtonType.OK){
+            NNM.instanciate.saveNetwork();
+            SceneController.sceneController.closeAplication(e);
+        }
     }
 
     @FXML
@@ -35,5 +45,10 @@ public class HelloController {
     @FXML
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to JavaFX Application!");
+    }
+
+    @FXML
+    protected void onClickInput(ActionEvent e) throws IOException{
+        SceneController.sceneController.changeInputScene(e);
     }
 }
